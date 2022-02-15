@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
 #site-header {
   background-color: white;
   margin: 0%;
@@ -14,33 +18,38 @@ img {
 }
 
 .textlogo {
-  font-size: 2rem;
+  font-size: 40px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
+  line-height: 100px;
 }
 
 /* site-main */
 .first-box {
   width: 1000px;
   height: 60px;
+  line-height: 13px;
   background-color: white;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 3px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 
 .task-button {
-  text-align: center;
+  vertical-align: middle;
   background-color: rgba(7, 147, 228, 0.884);
+  margin-left: 15px;
   border-radius: 7px;
-  margin: 15px;
   padding: 8px 15px;
   color: white;
   font-weight: 600;
+  display: inline-block;
 }
 
 .section-button {
+  vertical-align: middle;
   background-color: rgba(228, 235, 240, 0.884);
   border-radius: 7px;
   padding: 8px 15px;
@@ -51,10 +60,75 @@ img {
 /* second part - site main */
 .second-box {
   width: 1000px;
-  height: 600px;
+  height: 650px;
   background-color: white;
   margin: auto;
-  margin-top: 3px;
+  margin-top: 2px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.editorial {
+  background-color: rgba(7, 147, 228, 0.884);
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.goals {
+  background-color: rgba(155, 43, 165, 0.884);
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.recruiting {
+  background-color: rgba(26, 218, 218, 0.884);
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.mobile {
+  background-color: rgba(247, 106, 12, 0.986);
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.website {
+  background-color: rgba(243, 45, 154, 0.884);
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.sales {
+  background-color: rgba(37, 164, 248, 0.884);
+  color: white;
+  font-size: smaller;
+  padding: 8px;
+  border-radius: 17px;
+}
+
+.text-task {
+  line-height: 46px;
+  font-family: "Oswald", sans-serif;
+}
+
+.contain {
+  margin-left: 60px;
+}
+
+.circlex {
+  color: red;
+}
+
+.checkmark {
+  color: rgb(27, 170, 189);
 }
