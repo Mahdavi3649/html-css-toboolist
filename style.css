@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(236, 234, 234);
+  background-color: rgb(241, 239, 239);
   margin: 0;
 }
 
@@ -17,4 +17,44 @@ img {
   font-size: 2rem;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+}
+
+/* site-main */
+.first-box {
+  width: 1000px;
+  height: 60px;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.task-button {
+  text-align: center;
+  background-color: rgba(7, 147, 228, 0.884);
+  border-radius: 7px;
+  margin: 15px;
+  padding: 8px 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.section-button {
+  background-color: rgba(228, 235, 240, 0.884);
+  border-radius: 7px;
+  padding: 8px 15px;
+  color: rgba(109, 107, 107, 0.596);
+  font-weight: 600;
+}
+
+/* second part - site main */
+.second-box {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  margin-top: 3px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
